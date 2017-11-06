@@ -1,0 +1,122 @@
+body {
+	font-family: Arial, Helvetica, Sans Serif;
+}
+div#wrapper {
+	max-width: 80%;
+	margin:auto;
+	border: 0px solid #000;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-shadow: 0px 0px 20px 6px #ccc;
+	box-shadow: 0px 0px 20px 6px #ccc;
+	padding: 10px;
+}
+
+div#titulo h1 {
+	color: #f00;
+	text-decoration: underline;;
+}
+
+div#titulo,
+div#datos-personales {
+	text-align: center;
+}
+nav {
+	clear: both;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 20px 6px #ccc;
+	 box-shadow: 0px 0px 20px 6px #ccc; 
+	 font-size: 0;
+	 background: -webkit-linear-gradient(#CCC,#FFF,#CCC); /* Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#CCC,#FFF,#CCC); /* Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#CCC,#FFF,#CCC); /* Firefox 3.6 to 15 */
+    background: linear-gradient(#CCC,#FFF,#CCC); /* Standard syntax (must be last) */
+
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	color: #000;
+	font-size: 15px;
+	font-weight: bolder;
+	margin: 0;
+	display: inline-block;
+	height: 35px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-decoration: none;
+}
+
+nav ul li {
+
+	border-width: 0px 1px 0px 0px;
+	border-color: #ccc;
+	border-style: solid;
+}
+
+nav ul li:last-child {
+
+	border-width: 0px;
+}
+
+div#informacion-personal-1{
+	width: 100%;
+	position: relative;
+}
+
+div#informacion-personal-1 img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+
+div.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fff;
+}
+
+div#informacion-personal-1:hover .overlay {
+  opacity: .3;
+}
+
+div.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+footer {
+	text-align: center;
+	padding: 15px;
+	background-color: #ccc
+}
+
+table#educacion {
+	width: 100%;
+	margin: auto;
+	margin-top: 10px;
+}
+
+table, td, th {
+	border: 1px solid #000;
+	padding: 5px;
+	border-collapse: collapse;
+}
